@@ -1,4 +1,8 @@
 {
+  "name": "nntp-server-redux",
+  "author": "Zack Guard <zacharyguard@gmail.com>",
+  "repository": "github:z-------------/nntp-server-redux",
+  "license": "MIT",
   "dependencies": {
     "phin": "3.4.0"
   }
