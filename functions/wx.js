@@ -1,7 +1,7 @@
 const p = require("phin");
 
 exports.handler = (e, ctx, callback) => {  
-  let ip = e.queryStringParameters.ip || e.headers["X-Nf-Client-Connection-Ip"]; 
+  let ip = e.queryStringParameters.ip || e.headers["x-nf-client-connection-ip"]; 
   let lang = e.queryStringParameters.lang || "en";
 
   console.log("ip:", ip);
