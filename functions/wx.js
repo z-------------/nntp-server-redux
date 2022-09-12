@@ -33,7 +33,10 @@ exports.handler = (e, ctx, callback) => {
           coords: latLngStr.split(",")
         }
       };
-      callback(null, { body: JSON.stringify(response) });
+      callback(null, {
+        status: 200,
+        body: JSON.stringify(response),
+      });
     });
   }
 };
